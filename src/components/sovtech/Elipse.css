@@ -1,0 +1,8 @@
+.elipse {
+  --x: 1;
+  --s: calc(5.5vw * var(--x));
+  height: var(--s);
+  width: var(--s);
+  border-radius: 50%;
+  border: 3px solid #c5c2c2;
+}

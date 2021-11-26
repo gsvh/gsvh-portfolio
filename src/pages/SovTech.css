@@ -1,0 +1,121 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.why-sovtech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #c5c2c2;
+}
+.why-sovtech h1 {
+  text-align: justify;
+  padding-top: 35vh;
+  font-size: 2em;
+  width: 60vw;
+  padding-left: 30vw;
+  padding-right: 30vw;
+
+  animation: 10s header;
+}
+.why-sovtech h2 {
+  text-align: justify;
+  font-size: 1.5em;
+  width: 60vw;
+
+  animation: 15s body;
+}
+
+.why-sovtech h3 {
+  font-size: 1em;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  opacity: 0;
+
+  animation: 5s spam;
+}
+.pos {
+  position: absolute;
+  top: 0;
+}
+.button-big-box {
+  position: absolute;
+  bottom: 0;
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#triangle {
+  font-size: 3.5vh;
+  color: #c5c2c2;
+  padding: 0.5vh;
+  margin: 0;
+}
+.button span {
+  font-size: 3vh;
+  color: #c5c2c2;
+  padding: 0.5vh;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1.5px solid #c5c2c2;
+  border-radius: 2px;
+}
+
+@keyframes header {
+  0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes body {
+  0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes spam {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

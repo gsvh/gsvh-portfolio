@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.sub-cont {
+  max-width: 90vw;
+  margin-top: 24vh;
+  margin-bottom: 20vh;
+}
+
+.sub-header {
+  width: 70vw;
+  margin-top: 24vh;
+  margin-left: 3vw;
+  margin-bottom: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.sub-cont img {
+  width: 60vw;
+  opacity: 0.7;
+  animation: 3s image;
+  z-index: inherit;
+  box-shadow: 0px 2px 15px 5px rgba(61, 61, 61, 0.3);
+}
+.sub-header h1 {
+  margin: 0;
+  padding-right: 22vw;
+  font-size: 3vw;
+  animation: 3s hello;
+}
+
+.sub-header h2 {
+  margin: 0;
+  padding-right: 0.5vw;
+  font-size: 2vw;
+  animation: 3s george;
+}
+
+.sub-header p {
+  margin: 0;
+  padding-right: 0.1vw;
+  font-size: 2vw;
+  animation: 3s george;
+  color: rgb(82, 19, 19);
+}
+
+.sub-header h3 {
+  margin: 0;
+  padding-right: 0.5vw;
+  font-size: 1.6vw;
+  animation: 4.1s creative;
+}
+.sub-header h4 {
+  margin: 0;
+  padding-right: 0.5vw;
+  font-size: 1.6vw;
+  animation: 5.1s innovative;
+}
+.sub-header h5 {
+  margin: 0;
+  padding-right: 0.3vw;
+  font-size: 1.6vw;
+  animation: 6.5s programmer;
+}
+.sub-header h6 {
+  font-size: 1.3vw;
+  width: 27vw;
+  animation: 8.3s desc;
+  text-align: justify;
+}
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 20vh;
+}
+
+.tech-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #c5c2c2;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+.cv h1 {
+  font-size: 1.1vw;
+}
+.cv img {
+  filter: invert(82%) sepia(5%) saturate(93%) hue-rotate(314deg)
+    brightness(100%) contrast(81%);
+  width: 4vw;
+}
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #c5c2c2;
+  margin-bottom: 20vh;
+}
+.hobbies h1 {
+  padding-left: 10vw;
+  padding-right: 60vw;
+  margin-bottom: 20vh;
+}
+.hobbies-left {
+  width: 20vw;
+}
+
+.hobbies-right {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hobbies-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20vw;
+}
+
+.hobbies-right img {
+  width: 15vw;
+  border-radius: 50%;
+  filter: grayscale(100%);
+
+  box-shadow: 0px 2px 15px 5px rgba(61, 61, 61, 0.3);
+}
+.hobbies-right h2 {
+  font-size: 1.3vw;
+}
+@keyframes hello {
+  0% {
+    transform: translateX(-26vw);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateX(-26vw);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(-26vw);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes image {
+  0% {
+    transform: translateX(-26vw);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateX(-26vw);
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(-26vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes george {
+  0% {
+    transform: translate(-26vw, -4vw);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(-26vw, -4vw);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-26vw, 0);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-26vw, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes creative {
+  0% {
+    opacity: 0;
+    transform: translateY(5vw);
+  }
+  75% {
+    opacity: 0;
+    transform: translateY(5vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0vw);
+  }
+}
+@keyframes innovative {
+  0% {
+    opacity: 0;
+    transform: translateY(-5vw);
+  }
+  85% {
+    opacity: 0;
+    transform: translateY(-5vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0vw);
+  }
+}
+@keyframes programmer {
+  0% {
+    opacity: 0;
+    transform: translateY(-5vw);
+  }
+  85% {
+    opacity: 0;
+    transform: translateY(-3vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0vw);
+  }
+}
+
+@keyframes desc {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,48 @@
+:root {
+  --size: 30px;
+  --size-small: 20px;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(var(--size) / 2);
+  color: #c5c2c2;
+  width: calc(var(--size) * 4);
+  height: calc(var(--size) * 4);
+}
+.icon {
+  display: flex;
+  align-items: center;
+  height: calc(var(--size) * 3);
+}
+.image {
+  filter: grayscale(100%);
+  width: calc(var(--size) * 2);
+}
+.text {
+  text-align: center;
+}
+
+.smallCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(var(--size-small) / 2);
+  color: #c5c2c2;
+  width: calc(var(--size-small) * 4);
+  height: calc(var(--size-small) * 4);
+}
+.smallIcon {
+  display: flex;
+  align-items: center;
+  height: calc(var(--size-small) * 3);
+}
+.smallImage {
+  filter: invert(82%) sepia(5%) saturate(93%) hue-rotate(314deg)
+    brightness(100%) contrast(81%);
+  width: calc(var(--size-small) * 2);
+}
