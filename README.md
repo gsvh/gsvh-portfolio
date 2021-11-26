@@ -13,4 +13,4 @@ This will install all neccesary node modules
 This will start the development server
 
 ## `Here is a link to the app:`
-gsvh-portfolio.vercel.app
+www.gsvh-portfolio.vercel.app
