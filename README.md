@@ -13,4 +13,4 @@ This will install all neccesary node modules
 This will start the development server
 
 ## `Here is a link to the app:`
-http://my-portfolio-mocha-two.vercel.app/
+gsvh-portfolio.vercel.app
