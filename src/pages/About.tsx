@@ -25,7 +25,7 @@ export const About: React.FC = () => {
           <h4>and innovative </h4>
           <h5>software developer from South Africa.</h5>
           <h6>
-            I am a critical thinker and I love solving complex propblems. I'm
+            I am a critical thinker and I love solving complex problems. I'm
             always up for a challenge and adore learning new skills.
           </h6>
         </div>
