@@ -56,9 +56,7 @@ export const SovTech: React.FC = () => {
         <div className="button-big-box">
           <div className="button-box">
             <button className="button" onClick={addNewShape}>
-              <span id="triangle">△</span>
-              <span>□</span>
-              <span>○</span>
+              <span>△ □ ○</span>
             </button>
           </div>
         </div>
