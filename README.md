@@ -11,3 +11,6 @@ This will install all neccesary node modules
 ### `npm start`
 
 This will start the development server
+
+## `Here is a link to the app:`
+http://my-portfolio-mocha-two.vercel.app/
